@@ -2,7 +2,7 @@ name: Fork Sync (daily)
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '17 19 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
